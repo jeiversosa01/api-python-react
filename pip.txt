@@ -1,0 +1,8 @@
+pip install mysqlclient
+pip install fastapi
+pip install uvicorn[standard]
+pip install peewee
+
+Modificar variables de entorno para fastapi y anteriores
+
+Comando para ejecutar: uvicorn main:app --reload
